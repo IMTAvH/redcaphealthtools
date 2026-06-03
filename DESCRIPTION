@@ -1,0 +1,23 @@
+Package: redcaphealthtools
+Title: Health Data Management Tools for REDCap Projects
+Version: 0.1.0
+Authors@R:
+    person("Renato", "Cava", email = "renato.cava@upch.", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-4456-7450"))
+Description: A high-level toolkit for biomedical and clinical research data
+    management built on top of REDCapR.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    R (>= 4.1.0)
+Imports:
+    REDCapR (>= 1.1.0)
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/IMTAvH/redcaphealthtools
+BugReports: https://github.com/IMTAvH/redcaphealthtools/issues

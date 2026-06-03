@@ -1,0 +1,32 @@
+---
+title: "Introducción a redcaphealthtools"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introducción a redcaphealthtools}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>", eval = FALSE)
+```
+
+<!-- Documenta el uso del paquete aquí a medida que implementas las funciones -->
+
+## Instalación
+
+```r
+install.packages("REDCapR")
+remotes::install_github("TU_USUARIO/redcaphealthtools")
+```
+
+## Flujo básico
+
+```r
+library(redcaphealthtools)
+
+creds <- rcht_connect(Sys.getenv("REDCAP_URL"), Sys.getenv("REDCAP_TOKEN"))
+
+datos <- rcht_read(creds)
+dict  <- rcht_read_dict(creds)
+```

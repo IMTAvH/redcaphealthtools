@@ -1,0 +1,15 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Paquete R
+*.Rcheck/
+*.tar.gz
+*.zip
+man/
+docs/
+
+# Credenciales — nunca subir
+.Renviron
+*.token
