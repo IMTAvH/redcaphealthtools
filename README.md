@@ -1,7 +1,7 @@
 # redcaphealthtools
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/IMTAvH/redcaphealthtools/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/IMTAvH/redcaphealthtools/actions/workflows/R-CMD-check.yaml)
+<!-- [![R-CMD-check](https://github.com/IMTAvH/redcaphealthtools/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/IMTAvH/redcaphealthtools/actions/workflows/R-CMD-check.yaml) -->
 <!-- badges: end -->
 
 Librería de R para el manejo de datos en investigación biomédica e informática
